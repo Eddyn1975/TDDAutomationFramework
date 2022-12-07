@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AVS - CRM API Tests]">
+  <parameter name="param" value="globalValue"/>
+  <test thread-count="5" name="NewDepositTest(failed)">
+    <parameter name="Payer" value="Vladmir Putin"/>
+    <parameter name="password" value="abc123"/>
+    <parameter name="Description" value="Attack against Ukraine"/>
+    <parameter name="Category" value="Compensation"/>
+    <parameter name="Ref#" value="113000023 000123456789 123"/>
+    <parameter name="Amount" value="5,000,000,000,000"/>
+    <parameter name="Method" value="Wire Transfer"/>
+    <parameter name="Date" value="2022-06-09"/>
+    <parameter name="Tags" value="War"/>
+    <parameter name="username" value="demo@techfios.com"/>
+    <parameter name="AccountName" value="Checking Account"/>
+    <classes>
+      <class name="com.qa.tests.NewDepositTest">
+        <methods>
+          <include name="UserShouldBeAbleToDepositMoney"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.qa.tests.NewDepositTest -->
+    </classes>
+  </test> <!-- NewDepositTest(failed) -->
+</suite> <!-- Failed suite [AVS - CRM API Tests] -->

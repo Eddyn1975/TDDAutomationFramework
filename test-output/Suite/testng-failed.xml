@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.qa.listeners.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="NewDepositTest(failed)">
+    <parameter name="Description" value="IT Training"/>
+    <parameter name="Reference" value="113000023 000123456789 123"/>
+    <parameter name="Amount" value="5,000,000,000,000"/>
+    <parameter name="userName" value="demo@techfios.com"/>
+    <parameter name="Password" value="abc123"/>
+    <classes>
+      <class name="com.qa.tests.NewDepositTest">
+        <methods>
+          <include name="UserShouldBeAbleToDepositMoney" invocation-numbers="0"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.qa.tests.NewDepositTest -->
+    </classes>
+  </test> <!-- NewDepositTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

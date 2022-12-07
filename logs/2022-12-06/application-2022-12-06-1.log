@@ -1,0 +1,12 @@
+[INFO ] 2022-12-06 23:51:38.086 BaseTest:63 - Navigate to home page
+[INFO ] 2022-12-06 23:51:38.166 AddCustomerTest:48 - Browser is initialized
+[INFO ] 2022-12-06 23:51:44.337 AddCustomerTest:61 - User with valid credential should be able to login
+[INFO ] 2022-12-06 23:52:17.168 BaseTest:63 - Navigate to home page
+[INFO ] 2022-12-06 23:52:17.220 LoginTest:36 - Browser is initialized
+[INFO ] 2022-12-06 23:52:22.487 LoginTest:48 - User with invalid credential should not be able to login
+[INFO ] 2022-12-06 23:52:25.721 BaseTest:63 - Navigate to home page
+[INFO ] 2022-12-06 23:52:25.751 LoginTest:36 - Browser is initialized
+[INFO ] 2022-12-06 23:52:30.906 LoginTest:61 - User with invalid credential should not be able to login
+[INFO ] 2022-12-06 23:52:34.327 BaseTest:63 - Navigate to home page
+[INFO ] 2022-12-06 23:52:34.365 LoginTest:36 - Browser is initialized
+[INFO ] 2022-12-06 23:52:40.223 LoginTest:75 - User with valid credential should be able to login
